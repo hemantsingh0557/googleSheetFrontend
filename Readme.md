@@ -41,7 +41,7 @@ As shown below, you can **log in or register** to access the platform:
 
 <p align="center">
   <img src="./src/assets/login.png" alt="Login Page" width="49%">
-  <img src="./src/assets/register.png" alt="Register Page" width="49%">
+  <img src="./src/assets/Register.png" alt="Register Page" width="49%">
 </p>
 
 
