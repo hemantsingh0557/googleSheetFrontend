@@ -1,7 +1,7 @@
 const BASE_URL =
   process.env.NODE_ENV === "development"
     ? "http://localhost:5000"
-    : "backend deployed url";
+    : "https://google-sheet-server.vercel.app/";
 
 export const USER_URL = `${BASE_URL}/api/user`;
 export const SHEET_URL = `${BASE_URL}/api/sheet`;
