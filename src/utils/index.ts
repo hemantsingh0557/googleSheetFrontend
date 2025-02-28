@@ -38,11 +38,8 @@ export const debounce = <T>(
   };
 };
 
-export const getStaticUrl = (path: string) => {
-  return `${
-    process.env.NODE_ENV === "production" ? "/google-sheets" : ""
-  }${path}`;
-};
+export const getStaticUrl = (path: string) => path;
+
 
 export const convertToTitle = (n: number) => {
   if (n < 27) return String.fromCharCode(n + 64);
